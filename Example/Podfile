@@ -1,0 +1,14 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://bj.gitlab.cnlive.com/ios-team/CNLiveRepos.git'
+platform :ios, '9.0'
+target 'CNLiveCoreMediator_ModuleDiseaseAction_Example' do
+  pod 'CNLiveCoreMediator_ModuleDiseaseAction', :path => '../'
+  pod 'CNLiveCoreMediator'
+
+  target 'CNLiveCoreMediator_ModuleDiseaseAction_Tests' do
+    inherit! :search_paths
+ pod 'CNLiveCoreMediator'
+    
+  end
+end
