@@ -1,0 +1,2 @@
+# CNLiveCoreMediator_ModuleDiseaseAction
+农业智能中间跳转组件
